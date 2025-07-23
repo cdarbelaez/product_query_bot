@@ -1,0 +1,6 @@
+Nombre: Teclado Mecánico RedSwitch
+Teclas: 87 teclas con switches rojos silenciosos.
+Iluminación: RGB personalizable.
+Conectividad: Cable USB-C desmontable.
+Modo juego, anti-ghosting completo.
+Estructura metálica compacta y duradera.

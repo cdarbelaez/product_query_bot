@@ -1,0 +1,29 @@
+# Entorno virtual (si usas venv en local)
+venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de índice vectorial y serialización
+*.pkl
+*.db
+*.faiss
+
+# Datos temporales o sensibles
+*.log
+*.tmp
+
+# Configuración de sistema operativo / IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Archivos comprimidos
+*.zip

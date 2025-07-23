@@ -1,0 +1,6 @@
+Nombre: Cámara de Seguridad WiFi HomeGuard
+Resolución: 1080p Full HD con visión nocturna.
+Rotación: 360° horizontal, 90° vertical.
+Detección de movimiento con notificación al celular.
+Audio: Micrófono y altavoz integrados (comunicación bidireccional).
+Almacenamiento: MicroSD hasta 128GB o en la nube.

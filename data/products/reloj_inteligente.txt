@@ -1,0 +1,6 @@
+Nombre: Smartwatch FitPro 2
+Pantalla: AMOLED 1.4" táctil.
+Funciones: Monitor de frecuencia cardíaca, conteo de pasos, oxígeno en sangre.
+Batería: Hasta 7 días de uso continuo.
+Compatible con notificaciones de apps como WhatsApp, Instagram y llamadas.
+Resistente al agua (IP68).
