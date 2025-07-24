@@ -10,7 +10,7 @@ __pycache__/
 *.pyd
 
 # Archivos de índice vectorial y serialización
-*.pkl
+# *.pkl
 *.db
 *.faiss
 
