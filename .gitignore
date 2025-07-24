@@ -9,11 +9,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Archivos de índice vectorial y serialización
-# *.pkl
-*.db
-*.faiss
-
 # Datos temporales o sensibles
 *.log
 *.tmp

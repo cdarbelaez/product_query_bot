@@ -6,3 +6,5 @@ fastapi==0.111.0
 pydantic==2.9.2
 pytest==6.2.5
 python-dotenv
+faiss-cpu==1.7.4
+
