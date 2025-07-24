@@ -1,15 +1,18 @@
-FROM python:3.10-slim
+FROM python:3.10
 
-WORKDIR /app
+# Instala dependencias de sistema necesarias para faiss
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libopenblas-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copiamos primero las dependencias para aprovechar cache
+# Instala dependencias de Python
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
-# Copiamos el resto del código, incluyendo .env si se usa
-COPY . .
-
-# (opcional) establece la variable si no se usa .env dentro del contenedor
-# ENV GEMINI_API_KEY=clave_aquí
+# Resto de tu Dockerfile
+COPY . /app
+WORKDIR /app
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
